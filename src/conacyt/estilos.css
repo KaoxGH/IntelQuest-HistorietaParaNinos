@@ -1,0 +1,186 @@
+.fondo{
+    -fx-background-image: url("conacyt.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondoinicio{
+    -fx-background-image: url("conacytinicio.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondoMaestros{
+    -fx-background-image: url("Maestros.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondoPrsInicio{
+    -fx-background-image: url("Prs1.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondoPrimaria{
+    -fx-background-image: url("primaria.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondoSecundaria{
+    -fx-background-image: url("secundaria.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondodesesion{
+    -fx-background-image: url("inicio.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondoPrs2{
+    -fx-background-image: url("Prs2.jpg");
+}
+.fondoPrs3{
+    -fx-background-image: url("Prs3.jpg");
+}
+.fondoPrs4{
+    -fx-background-image: url("Prs4.jpg");
+}
+.fondoPrs5{
+    -fx-background-image: url("Prs5.jpg");
+}
+.fondoPrs6{
+    -fx-background-image: url("Prs6.jpg");
+}
+.fondoPrs7{
+    -fx-background-image: url("Prs7.jpg");
+}
+.fondoPrs8{
+    -fx-background-image: url("Prs8.jpg");
+}
+.fondoPrs9{
+    -fx-background-image: url("Prs9.jpg");
+}
+.fondoPrs10{
+    -fx-background-image: url("Prs10.jpg");
+}
+.fondoPrs11{
+    -fx-background-image: url("Prs11.jpg");
+}
+.fondoPrs12{
+    -fx-background-image: url("Prs12.jpg");
+}
+.imagenSP1{
+    -fx-background-image: url("fime.png");
+    -fx-background-size: 150 200;
+}
+.imagenSP2{
+    -fx-background-image: url("uanl.png");
+    -fx-background-size: 180 200;
+}
+.gifRayosX{
+    -fx-background-image: url("rayosx.gif");
+}
+.bomba{
+    -fx-background-image: url("bomba.gif");
+    -fx-background-size: 68 51;
+}
+.botonesIndex{
+    -fx-background-color: linear-gradient(#3b6eff, #1552ff);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-insets: 0;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(gaussian,black,3,0.5,2,2);
+}
+.botonesSesion{
+    -fx-background-color: linear-gradient(#3b6eff, #1552ff);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-insets: 0;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(gaussian,black,3,0.5,2,2);
+}
+.botonesPreescolar{
+    -fx-background-color: linear-gradient(#459c1a, #5bb42f);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-insets: 0;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(gaussian,black,3,0.5,2,2);
+}
+.botonEmpezar{
+    -fx-background-color: linear-gradient(#2a4ae9, #1135e8);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-insets: 0;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(gaussian,black,3,0.5,2,2);
+}
+.botonSalir{
+    -fx-background-color: linear-gradient(#eb2e2e, #ea1111);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-insets: 0;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(gaussian,black,3,0.5,2,2);
+}
+.salir{
+    -fx-background-color: linear-gradient(#b0ff3f, #a2ff1d);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-insets: 0;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(gaussian,black,3,0.5,2,2);
+}
+.salir:hover, .botonesIndex:hover {
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    
+}
+.botonesSesion:hover {
+    -fx-background-color: linear-gradient(#1552ff, #3b6eff);
+    -fx-border-width: 2;
+}
+.botonesPreescolar:hover {
+    -fx-background-color: linear-gradient(#5bb42f, #459c1a);
+    -fx-border-width: 2;
+}
+.botonEmpezar:hover {
+    -fx-background-color: linear-gradient(#1135e8, #2a4ae9);
+    -fx-border-width: 2;
+}
+.botonSalir:hover {
+    -fx-background-color: linear-gradient(#ea1111, #eb2e2e);
+    -fx-border-width: 2;
+}
+/*.salir:focused, .botonesIndex:focused{
+    /*-fx-focus-color: transparent;
+    -fx-background-insets: -1.4, 0, 1, 2;
+    
+    
+.salir:focused:hover {
+    -fx-background-color:
+        #0093EF,
+        #FFFFFF;
+}*/

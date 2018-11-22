@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="fondoSecundaria" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="conacyt.SecundariaController">
+   <children>
+      <Label layoutX="62.0" layoutY="106.0" text="Es el componente electrónico diseñado para introducir">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="138.0" text="una resistencia eléctrica determinada entre">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="170.0" text="dos puntos de un circuito eléctrico.">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbCapacitor" layoutX="62.0" layoutY="263.0" mnemonicParsing="false" onAction="#selectcapacitor" text="Capacitor">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbLED" layoutX="62.0" layoutY="369.0" mnemonicParsing="false" onAction="#selectLED" text="LED">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbCableElect" layoutX="62.0" layoutY="419.0" mnemonicParsing="false" onAction="#selectCE" text="Cable Eléctrico">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <Button fx:id="boton1" layoutX="501.0" layoutY="485.0" mnemonicParsing="false" onAction="#selectsiguiente" text="Continuar">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="rbResistor" layoutX="62.0" layoutY="320.0" mnemonicParsing="false" onAction="#selectresistor" text="Resistor">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+   </children>
+</AnchorPane>

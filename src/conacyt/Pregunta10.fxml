@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="fondoSecundaria" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="conacyt.SecundariaController">
+   <children>
+      <Label layoutX="51.0" layoutY="75.0" prefHeight="24.0" prefWidth="713.0" text="Código que usan los ordenadores">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbbin" layoutX="51.0" layoutY="177.0" mnemonicParsing="false" onAction="#selectbin" prefHeight="27.0" prefWidth="269.0" text="Binario">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbascii" layoutX="51.0" layoutY="309.0" mnemonicParsing="false" onAction="#selectascii" prefHeight="27.0" prefWidth="269.0" text="Ascii">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbbus" layoutX="51.0" layoutY="264.0" mnemonicParsing="false" onAction="#selectbus" prefHeight="27.0" prefWidth="269.0" text="BUS">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbsoftware" layoutX="51.0" layoutY="220.0" mnemonicParsing="false" onAction="#selectsoftware" prefHeight="27.0" prefWidth="269.0" text="Software">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <Button mnemonicParsing="false" text="Button" />
+      <Button fx:id="btnSalir" layoutX="669.0" layoutY="524.0" mnemonicParsing="false" onAction="#selectsiguiente" text="Salir">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="fondoSecundaria" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="conacyt.SecundariaController">
+   <children>
+      <RadioButton fx:id="rbquin" layoutX="39.0" layoutY="205.0" mnemonicParsing="false" onAction="#selectquin" text="500">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbdiezmil" layoutX="39.0" layoutY="297.0" mnemonicParsing="false" onAction="#selectdiezmil" text="10,000">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbmil" layoutX="39.0" layoutY="156.0" mnemonicParsing="false" onAction="#selectmil" text="1000">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbcien" layoutX="39.0" layoutY="249.0" mnemonicParsing="false" onAction="#selectcien" text="100">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="28.0" layoutY="40.0" prefHeight="24.0" prefWidth="467.0" text="¿Cuántos GigaBytes hay en un terabyte?">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="boton5" layoutX="511.0" layoutY="495.0" mnemonicParsing="false" onAction="#selectsiguiente" text="Continuar">
+         <font>
+            <Font name="Simplified Arabic Fixed" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
